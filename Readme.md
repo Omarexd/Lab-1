@@ -1,4 +1,4 @@
-\# Laboratorio – Modularización en Java
+\ Laboratorio – Modularización en Java
 
 Curso: Programación 1
 
