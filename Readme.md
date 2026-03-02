@@ -19,7 +19,7 @@ Aplicar los conceptos de modularización mediante métodos, uso correcto de vari
 
 
 
-# Identificación de tareas repetitivas
+## Identificación de tareas repetitivas
 
 
 
@@ -47,7 +47,7 @@ Dividir estas tareas mejora el programa porque facilita su lectura, permite reut
 
 
 
-# Variables Locales vs Globales
+## Variables Locales vs Globales
 
 
 
@@ -103,7 +103,7 @@ La modularización permitió que el código sea más ordenado, legible y fácil 
 
 
 
-##  Parte 3 – Validaciones y Manejo de Excepciones
+#  Parte 3 – Validaciones y Manejo de Excepciones
 
 
 
@@ -139,7 +139,7 @@ Estas mejoras hacen que el programa sea más robusto y confiable.
 
 
 
-# 1️ Ventajas de dividir el código en métodos
+## 1️ Ventajas de dividir el código en métodos
 
 
 
@@ -151,7 +151,7 @@ Dividir el código en métodos permite organizar mejor el programa, facilita la 
 
 
 
-# 2️ Por qué no usar muchas variables globales
+## 2️ Por qué no usar muchas variables globales
 
 
 
@@ -163,7 +163,7 @@ El uso excesivo de variables globales puede provocar errores inesperados, dificu
 
 
 
-# 3️ Cómo mejora la modularización la legibilidad
+## 3️ Cómo mejora la modularización la legibilidad
 
 
 
