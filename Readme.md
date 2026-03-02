@@ -4,7 +4,7 @@ Curso: Programación 1
 
 
 
-\## 🎯 Objetivo
+\#  Objetivo
 
 Aplicar los conceptos de modularización mediante métodos, uso correcto de variables locales y globales, validación de entradas del usuario, manejo básico de excepciones y mejora de la organización del código.
 
@@ -14,11 +14,11 @@ Aplicar los conceptos de modularización mediante métodos, uso correcto de vari
 
 
 
-\## 🧠 Parte 1 – Análisis del Programa Original
+\#  Parte 1 – Análisis del Programa Original
 
 
 
-\### Identificación de tareas repetitivas
+\# Identificación de tareas repetitivas
 
 
 
@@ -46,7 +46,7 @@ Dividir estas tareas mejora el programa porque facilita su lectura, permite reut
 
 
 
-\### Variables Locales vs Globales
+\# Variables Locales vs Globales
 
 
 
@@ -66,7 +66,7 @@ Esto es importante porque reduce errores accidentales, limita el alcance de las 
 
 
 
-\## 🧩 Parte 2 – Modularización del Programa
+\#  Parte 2 – Modularización del Programa
 
 
 
@@ -102,7 +102,7 @@ La modularización permitió que el código sea más ordenado, legible y fácil 
 
 
 
-\## 🔐 Parte 3 – Validaciones y Manejo de Excepciones
+\##  Parte 3 – Validaciones y Manejo de Excepciones
 
 
 
@@ -134,11 +134,11 @@ Estas mejoras hacen que el programa sea más robusto y confiable.
 
 
 
-\## 📚 Parte 4 – Reflexión
+\# Parte 4 – Reflexión
 
 
 
-\### 1️⃣ Ventajas de dividir el código en métodos
+\# 1️ Ventajas de dividir el código en métodos
 
 
 
@@ -150,7 +150,7 @@ Dividir el código en métodos permite organizar mejor el programa, facilita la 
 
 
 
-\### 2️⃣ Por qué no usar muchas variables globales
+\# 2️ Por qué no usar muchas variables globales
 
 
 
@@ -162,7 +162,7 @@ El uso excesivo de variables globales puede provocar errores inesperados, dificu
 
 
 
-\### 3️⃣ Cómo mejora la modularización la legibilidad
+\# 3️ Cómo mejora la modularización la legibilidad
 
 
 
@@ -171,12 +171,3 @@ La modularización divide el programa en partes pequeñas y comprensibles. Cada 
 
 
 ---
-
-
-
-\## 👨‍💻 Integrantes
-
-(Agregar nombres aquí)
-
-
-
