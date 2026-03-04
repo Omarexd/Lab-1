@@ -1,10 +1,11 @@
-\# Laboratorio – Modularización en Java
+# Laboratorio – Modularización en Java
+
 
 Curso: Programación 1
 
 
 
-\## 🎯 Objetivo
+#  Objetivo
 
 Aplicar los conceptos de modularización mediante métodos, uso correcto de variables locales y globales, validación de entradas del usuario, manejo básico de excepciones y mejora de la organización del código.
 
@@ -14,11 +15,11 @@ Aplicar los conceptos de modularización mediante métodos, uso correcto de vari
 
 
 
-\## 🧠 Parte 1 – Análisis del Programa Original
+#  Parte 1 – Análisis del Programa Original
 
 
 
-\### Identificación de tareas repetitivas
+## Identificación de tareas repetitivas
 
 
 
@@ -26,15 +27,15 @@ En el programa original se observó que varias secciones del código realizaban 
 
 
 
-\- Agregar estudiante.
+- Agregar estudiante.
 
-\- Mostrar estudiantes.
+- Mostrar estudiantes.
 
-\- Calcular promedio.
+- Calcular promedio.
 
-\- Mostrar estudiante con mayor calificación.
+- Mostrar estudiante con mayor calificación.
 
-\- Mostrar el menú.
+- Mostrar el menú.
 
 
 
@@ -46,7 +47,7 @@ Dividir estas tareas mejora el programa porque facilita su lectura, permite reut
 
 
 
-\### Variables Locales vs Globales
+## Variables Locales vs Globales
 
 
 
@@ -66,7 +67,7 @@ Esto es importante porque reduce errores accidentales, limita el alcance de las 
 
 
 
-\## 🧩 Parte 2 – Modularización del Programa
+#  Parte 2 – Modularización del Programa
 
 
 
@@ -78,15 +79,15 @@ Se crearon métodos para:
 
 
 
-\- Mostrar el menú.
+- Mostrar el menú.
 
-\- Agregar estudiantes.
+- Agregar estudiantes.
 
-\- Mostrar registros.
+- Mostrar registros.
 
-\- Calcular promedio.
+- Calcular promedio.
 
-\- Determinar la mayor calificación.
+- Determinar la mayor calificación.
 
 
 
@@ -102,7 +103,7 @@ La modularización permitió que el código sea más ordenado, legible y fácil 
 
 
 
-\## 🔐 Parte 3 – Validaciones y Manejo de Excepciones
+#  Parte 3 – Validaciones y Manejo de Excepciones
 
 
 
@@ -110,11 +111,11 @@ Se identificaron posibles errores como:
 
 
 
-\- Ingresar texto en lugar de números.
+- Ingresar texto en lugar de números.
 
-\- Ingresar notas fuera del rango permitido.
+- Ingresar notas fuera del rango permitido.
 
-\- Intentar realizar cálculos sin datos registrados.
+- Intentar realizar cálculos sin datos registrados.
 
 
 
@@ -134,11 +135,11 @@ Estas mejoras hacen que el programa sea más robusto y confiable.
 
 
 
-\## 📚 Parte 4 – Reflexión
+# Parte 4 – Reflexión
 
 
 
-\### 1️⃣ Ventajas de dividir el código en métodos
+## 1️ Ventajas de dividir el código en métodos
 
 
 
@@ -150,7 +151,7 @@ Dividir el código en métodos permite organizar mejor el programa, facilita la 
 
 
 
-\### 2️⃣ Por qué no usar muchas variables globales
+## 2️ Por qué no usar muchas variables globales
 
 
 
@@ -162,7 +163,7 @@ El uso excesivo de variables globales puede provocar errores inesperados, dificu
 
 
 
-\### 3️⃣ Cómo mejora la modularización la legibilidad
+## 3️ Cómo mejora la modularización la legibilidad
 
 
 
@@ -171,12 +172,3 @@ La modularización divide el programa en partes pequeñas y comprensibles. Cada 
 
 
 ---
-
-
-
-\## 👨‍💻 Integrantes
-
-(Agregar nombres aquí)
-
-
-
