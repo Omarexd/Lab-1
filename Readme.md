@@ -125,6 +125,7 @@ Para evitar estos problemas se utilizaron bloques `try-catch`, los cuales captur
 
 También se implementó validación del rango de las notas para asegurar que los datos ingresados sean correctos.
 
+se implementan validaciones para que los nombres no lleven numero ni lleguen vacios
 
 
 Estas mejoras hacen que el programa sea más robusto y confiable.

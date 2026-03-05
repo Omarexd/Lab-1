@@ -27,7 +27,7 @@ public class Lab_1 {
         } while (opcion != 0);
     }
 
-    // MENU 
+    // MENU
     static void mostrarMenu() {
         System.out.println("\n--- MENU ---");
         System.out.println("1. Agregar estudiante");
@@ -67,15 +67,30 @@ public class Lab_1 {
     }
 
     static void agregarEstudiante() {
-        System.out.print("Nombre del estudiante: ");
-        String nombre = sc.nextLine();
+            try {
+                System.out.print("Nombre del estudiante: ");
+                String nombre = sc.nextLine();
 
-        double nota = leerNota();
+                if (nombre.isEmpty()) {
+                    System.out.println("El nombre no puede ser vacio");
+                    throw new Exception();
+                }
 
-        estudiantes.add(nombre);
-        notas.add(nota);
+                if (nombre.matches(".*\\d.*")) {
+                    System.out.println("El nombre no puede contener numeros");
+                    throw new Exception();
+                }
 
-        System.out.println("Estudiante agregado correctamente.");
+                double nota = leerNota();
+
+                estudiantes.add(nombre);
+                notas.add(nota);
+
+                System.out.println("Estudiante agregado correctamente.");
+            }catch (Exception e)
+            {
+                System.out.println("Ingrese un nombre valido");
+            }
     }
 
     static void mostrarEstudiantes() {
@@ -108,16 +123,16 @@ public class Lab_1 {
         }
 
         double mayor = notas.get(0);
-        int pos = 0;
+        int posicion = 0;
 
         for (int i = 1; i < notas.size(); i++) {
             if (notas.get(i) > mayor) {
                 mayor = notas.get(i);
-                pos = i;
+                posicion = i;
             }
         }
 
-        System.out.println("Mejor estudiante: " + estudiantes.get(pos));
+        System.out.println("Mejor estudiante: " + estudiantes.get(posicion));
         System.out.println("Nota: " + mayor);
     }
 }
